@@ -1,9 +1,9 @@
 module ClashKit
 
-go 1.17
+go 1.18
 
 require (
-	github.com/Dreamacro/clash v1.9.0
+	github.com/Dreamacro/clash v1.17.0
 	github.com/eycorsican/go-tun2socks v1.16.11
 )
 
@@ -32,5 +32,3 @@ require (
 	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
-
-replace github.com/Dreamacro/clash v1.9.0 => github.com/Clash-for-Apple/clash v1.9.1-0.20220224062051-d7a3acba1cc4
